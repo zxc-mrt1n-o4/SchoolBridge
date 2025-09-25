@@ -107,4 +107,4 @@ temp/
 /proxy-tests/
 
 # Public files that should not be tracked
-/public/middleman/
+# /public/middleman/ - Removed to allow middleman directory
