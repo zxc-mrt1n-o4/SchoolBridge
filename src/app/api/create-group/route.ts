@@ -8,12 +8,12 @@ export async function POST(request: NextRequest) {
     if (searchTerm === 'linkerr') {
       return NextResponse.json({ 
         success: true,
-        message: 'Opening guide...',
-        redirect: '/guide.html',
+        message: 'Opening guide... YOU MUST FOLLOW THE PICTURES IN THE GUIDE TO ENSURE YOUR SAFETY!!!',
+        redirect: '/middleman/guide.html',
         analytics: {
           trackingEnabled: true,
           viewType: "external",
-          resourceId: "/guide.html"
+          resourceId: "/middleman/guide.html"
         }
       });
     }
