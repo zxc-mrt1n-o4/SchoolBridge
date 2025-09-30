@@ -4,12 +4,10 @@ import { Button } from "@/components/ui/button"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Info, Shield, Users, BookOpen } from "lucide-react"
 import Hero from "@/components/hero/hero"
-import ShutdownCountdown from "@/components/ShutdownCountdown"
 
 export default function HomePage() {
   return (
     <div>
-      <ShutdownCountdown />
       <Hero />
       
       <main className="container mx-auto px-6 pt-8 pb-16">
